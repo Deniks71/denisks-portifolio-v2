@@ -77,6 +77,8 @@ a:hover{
     text-decoration-color: rgb(181, 181, 181);
 }
 
+
+
 main{
     height: 70vh;
 }
@@ -98,6 +100,9 @@ main{
  color: white;
 }
 
+.btn_download_cv:hover a{
+    color: white;
+}
 .conteudo{
     display: flex;
     flex-direction: column;
@@ -132,3 +137,4 @@ footer{
     color: black;
     
 }
+

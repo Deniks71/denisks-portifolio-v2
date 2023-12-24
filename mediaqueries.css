@@ -1,3 +1,69 @@
 @media screen and (max-width: 870px){
+    .links{
+        display: none;
+        
+    }
 
+    .mobile_menu_icon{
+        display: block;
+        
+        
+    }
+    .mobile_menu_icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu_mobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+
+
+    .menu_mobile li{
+        display: block;
+        padding-top: 1.2rem;
+
+    }
+    .open{
+        display: block;
+        bottom: 43%;
+        position: absolute;
+        overflow: hidden;
+        right: 12%;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 740px){
+    main{
+        height: auto;
+    }
+   
+    .main_home{
+        flex-direction: column-reverse;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 444px){
+    .logo{
+        display: none;
+    }
+
+    .open{
+        display: block;
+        bottom: 43%;
+        position: absolute;
+        overflow: hidden;
+        right: 35%;
+        background-color: white;
+    }
 }

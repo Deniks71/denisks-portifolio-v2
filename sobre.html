@@ -6,11 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="cabecalho">
+        <div class="logo">
+            Denilson Santos
+        </div>
+        <div class="links">
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="experiencia.html">Experiência</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile_menu_icon">
+            <button class="menuShow"><img src="assets/open_menu_black.svg" alt="Icone do Menu de celular" class="icon icon_nav"></button>
+        </div>
+
+        <div class="menu_mobile">
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="experiencia.html">Experiência</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main_sobre">
+        <h1 class="conteudo_titulo">
+            Saiba mais sobre mim!
+        </h1>
+
+        <div class="container_sobre">
+            <div class="container_img_sobre">
+                <img src="assets/deni_pic.jpeg" alt="Foto Denilson andando de bike" class="img_sobre">
+            </div>
+            <div class="container_paragrafo_sobre">
+                <p class="conteudo_paragrafo"> Estou estudando na área de tecnologia e tenho conhecimentos sobre Javascript, HTML e CSS, porém tenho focado os meus estudos para o Backend, com tecnologias como NODEJS e Python. Além disso, também venho atuando há 2 anos como Técnico de Mecatrônica no ambiente industrial, tenho contato com softwares de planejamento de manutenção (SAP PM) e software de Warehouse Management. Carrego como meus pontos fortes, bom relacionamento interpessoal, além de um bom domínio de uma segunda lingua.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="texto_rodape">Copyright &#169; 2023 Denilson Nascimento</p>
+    </footer>
     
+    <script src="script.js"></script>
 </body>
 </html>

@@ -243,3 +243,54 @@ footer{
     font-weight: 600;
     font-size: 1.1rem;
 }
+
+.conteudo_paragrafo_exp{
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+/*Projetos*/
+
+.main_projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.main_projetos_textos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos_container{
+    display: flex;
+    align-self: center;
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card_projetos{
+    padding: 1rem;
+    border: 2px solid #393E46;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.img_contruindo{
+    height: 250px;
+}
+.titulo_projeto{
+    color: #393E46;
+}

@@ -4,13 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Meu Portifolio - Exp.</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="assets/lightning_icon.svg">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="cabecalho">
+        <div class="logo">
+            Denilson Santos
+        </div>
+        <div class="links">
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="experiencia.html">Experiência</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile_menu_icon">
+            <button class="menuShow"><img src="assets/open_menu_black.svg" alt="Icone do Menu de celular" class="icon icon_nav"></button>
+        </div>
+
+        <div class="menu_mobile">
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="experiencia.html">Experiência</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main_exp">
+        <div class="exp_texto_container">
+            <h1 class="conteudo_titulo">Minha Experiência / Stacks</h1>
+            <p class="conteudo_paragrafo">Essas são as tecnologias nas quais eu tenho contato até então:</p>
+        </div>
+
+        <div class="stacks_container">
+            <div class="experiencia_stacks_container">
+                <div class="stack">
+                    <p class="paragrafo_sessao tecnologia_p">Javascript</p>
+                    <p class="paragrafo_sessao">Intermediario</p>
+                    <img src="assets/js_icon.svg" alt="Icone Javascript" class="icon icon_exp">
+                    
+                </div>
+                <div class="stack">
+                    <p class="paragrafo_sessao tecnologia_p">NodeJS</p>
+                    <p class="paragrafo_sessao">Iniciante</p>
+                    <img src="assets/node_icon.svg" alt="Icone NodeJS" class="icon icon_exp">
+                    
+                </div>
+                <div class="stack">
+                    <p class="paragrafo_sessao tecnologia_p">HTML</p>
+                    <p class="paragrafo_sessao">Intermediario</p>
+                    <img src="assets/html_icon.svg" alt="Icone HTML" class="icon icon_exp">
+                    
+                </div>
+                <div class="stack">
+                    <p class="paragrafo_sessao tecnologia_p">CSS</p>
+                    <p class="paragrafo_sessao">Intermediario</p>
+                    <img src="assets/css_icon.svg" alt="Icone css" class="icon icon_exp">
+                    
+                </div>
+               
+                <div class="stack">
+                    <p class="paragrafo_sessao tecnologia_p">Python</p>
+                    <p class="paragrafo_sessao">Iniciante</p>
+                    <img src="assets/python_icon.svg" alt="Python icon" class="icon icon_exp">
+                    
+                </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        <p class="texto_rodape">Copyright &#169; 2023 Denilson Nascimento</p>
+    </footer>
     
+    <script src="script.js"></script>
 </body>
 </html>

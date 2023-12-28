@@ -63,6 +63,7 @@ a,
     font-size: 1.5rem;
     list-style: none;
     padding: 0 1rem;
+    border-radius: 1rem;
 }
 
 .nav_links_mobile li{
@@ -136,6 +137,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 2rem;
+    margin-bottom: 1rem;
 }
 
 footer{
@@ -255,6 +257,9 @@ footer{
     color: #393E46;
     font-weight: 600;
     font-size: 1.1rem;
+}
+.icon_exp{
+    cursor: default;
 }
 
 .conteudo_paragrafo_exp{

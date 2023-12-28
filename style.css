@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
+/*Estilizaçoes gerais*/
 *{
     margin: 0;
     padding: 0;
@@ -70,11 +70,13 @@ a,
     display: block;
 }
 
+/*Classe icon é aplicada em todos os icons da pag*/
 .icon{
     height: 2rem;
     cursor: pointer;
 }
 
+/*Essa classe do icon github foi criada para aumentar o tamanho desse icone isoladamente, pois o tamanho dele estava menor que os outros icones.*/
 .github_icon{
     height: 2.4rem; 
 }

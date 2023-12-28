@@ -1,3 +1,4 @@
+/*Media queries para melhorar a usabilidade em telas com resoluçoes diferentes*/
 @media screen and (max-width: 870px){
     .links{
         display: none;
@@ -111,6 +112,8 @@
         margin-left: 1rem;
 
     }
+
+    /*Classe open serve para ser inserida no arquivo script.js e tem como proposito abrir o menu mobile quando o icone do menu mobile for clicado*/
     .open{
         display: block;
         position: absolute;
